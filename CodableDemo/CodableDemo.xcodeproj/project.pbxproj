@@ -1,0 +1,947 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		F130C23925FC8DAF003AC2BC /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F130C23825FC8DAF003AC2BC /* AppDelegate.swift */; };
+		F130C23B25FC8DAF003AC2BC /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F130C23A25FC8DAF003AC2BC /* SceneDelegate.swift */; };
+		F130C23D25FC8DAF003AC2BC /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F130C23C25FC8DAF003AC2BC /* ViewController.swift */; };
+		F130C24025FC8DAF003AC2BC /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F130C23E25FC8DAF003AC2BC /* Main.storyboard */; };
+		F130C24225FC8DB1003AC2BC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F130C24125FC8DB1003AC2BC /* Assets.xcassets */; };
+		F130C24525FC8DB1003AC2BC /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F130C24325FC8DB1003AC2BC /* LaunchScreen.storyboard */; };
+		F130C30026071A56003AC2BC /* DefaultDecoderProtocol.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F130C2F726071A56003AC2BC /* DefaultDecoderProtocol.framework */; };
+		F130C30726071A57003AC2BC /* DefaultDecoderProtocolTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F130C30626071A57003AC2BC /* DefaultDecoderProtocolTests.swift */; };
+		F130C30926071A57003AC2BC /* DefaultDecoderProtocol.h in Headers */ = {isa = PBXBuildFile; fileRef = F130C2F926071A56003AC2BC /* DefaultDecoderProtocol.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		F130C30C26071A57003AC2BC /* DefaultDecoderProtocol.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F130C2F726071A56003AC2BC /* DefaultDecoderProtocol.framework */; };
+		F130C30D26071A57003AC2BC /* DefaultDecoderProtocol.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = F130C2F726071A56003AC2BC /* DefaultDecoderProtocol.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		F130C31B26071A66003AC2BC /* DefaultDecoderKey.swift in Sources */ = {isa = PBXBuildFile; fileRef = F130C31A26071A66003AC2BC /* DefaultDecoderKey.swift */; };
+		F130C35526072683003AC2BC /* ValuedCodable.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F130C34C26072683003AC2BC /* ValuedCodable.framework */; };
+		F130C35C26072683003AC2BC /* ValuedCodableTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F130C35B26072683003AC2BC /* ValuedCodableTests.swift */; };
+		F130C35E26072683003AC2BC /* ValuedCodable.h in Headers */ = {isa = PBXBuildFile; fileRef = F130C34E26072683003AC2BC /* ValuedCodable.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		F130C36126072683003AC2BC /* ValuedCodable.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F130C34C26072683003AC2BC /* ValuedCodable.framework */; };
+		F130C36226072683003AC2BC /* ValuedCodable.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = F130C34C26072683003AC2BC /* ValuedCodable.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		F130C371260726BB003AC2BC /* Codable+Ex.swift in Sources */ = {isa = PBXBuildFile; fileRef = F130C25425FCA16D003AC2BC /* Codable+Ex.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		F130C30126071A56003AC2BC /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F130C22D25FC8DAF003AC2BC /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F130C2F626071A56003AC2BC;
+			remoteInfo = DefaultDecoderProtocol;
+		};
+		F130C30326071A57003AC2BC /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F130C22D25FC8DAF003AC2BC /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F130C23425FC8DAF003AC2BC;
+			remoteInfo = CodableDemo;
+		};
+		F130C30A26071A57003AC2BC /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F130C22D25FC8DAF003AC2BC /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F130C2F626071A56003AC2BC;
+			remoteInfo = DefaultDecoderProtocol;
+		};
+		F130C35626072683003AC2BC /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F130C22D25FC8DAF003AC2BC /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F130C34B26072683003AC2BC;
+			remoteInfo = ValuedCodable;
+		};
+		F130C35826072683003AC2BC /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F130C22D25FC8DAF003AC2BC /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F130C23425FC8DAF003AC2BC;
+			remoteInfo = CodableDemo;
+		};
+		F130C35F26072683003AC2BC /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F130C22D25FC8DAF003AC2BC /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F130C34B26072683003AC2BC;
+			remoteInfo = ValuedCodable;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		F130C27725FCAEEE003AC2BC /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+				F130C36226072683003AC2BC /* ValuedCodable.framework in Embed Frameworks */,
+				F130C30D26071A57003AC2BC /* DefaultDecoderProtocol.framework in Embed Frameworks */,
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		F130C23525FC8DAF003AC2BC /* CodableDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CodableDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		F130C23825FC8DAF003AC2BC /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		F130C23A25FC8DAF003AC2BC /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		F130C23C25FC8DAF003AC2BC /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		F130C23F25FC8DAF003AC2BC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		F130C24125FC8DB1003AC2BC /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		F130C24425FC8DB1003AC2BC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		F130C24625FC8DB1003AC2BC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F130C25425FCA16D003AC2BC /* Codable+Ex.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Codable+Ex.swift"; sourceTree = "<group>"; };
+		F130C2F726071A56003AC2BC /* DefaultDecoderProtocol.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = DefaultDecoderProtocol.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		F130C2F926071A56003AC2BC /* DefaultDecoderProtocol.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DefaultDecoderProtocol.h; sourceTree = "<group>"; };
+		F130C2FA26071A56003AC2BC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F130C2FF26071A56003AC2BC /* DefaultDecoderProtocolTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DefaultDecoderProtocolTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		F130C30626071A57003AC2BC /* DefaultDecoderProtocolTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DefaultDecoderProtocolTests.swift; sourceTree = "<group>"; };
+		F130C30826071A57003AC2BC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F130C31A26071A66003AC2BC /* DefaultDecoderKey.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DefaultDecoderKey.swift; sourceTree = "<group>"; };
+		F130C34C26072683003AC2BC /* ValuedCodable.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = ValuedCodable.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		F130C34E26072683003AC2BC /* ValuedCodable.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ValuedCodable.h; sourceTree = "<group>"; };
+		F130C34F26072683003AC2BC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F130C35426072683003AC2BC /* ValuedCodableTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ValuedCodableTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		F130C35B26072683003AC2BC /* ValuedCodableTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ValuedCodableTests.swift; sourceTree = "<group>"; };
+		F130C35D26072683003AC2BC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		F130C23225FC8DAF003AC2BC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F130C36126072683003AC2BC /* ValuedCodable.framework in Frameworks */,
+				F130C30C26071A57003AC2BC /* DefaultDecoderProtocol.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F130C2F426071A56003AC2BC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F130C2FC26071A56003AC2BC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F130C30026071A56003AC2BC /* DefaultDecoderProtocol.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F130C34926072683003AC2BC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F130C35126072683003AC2BC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F130C35526072683003AC2BC /* ValuedCodable.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		F130C22C25FC8DAF003AC2BC = {
+			isa = PBXGroup;
+			children = (
+				F130C23725FC8DAF003AC2BC /* CodableDemo */,
+				F130C34D26072683003AC2BC /* ValuedCodable */,
+				F130C35A26072683003AC2BC /* ValuedCodableTests */,
+				F130C2F826071A56003AC2BC /* DefaultDecoderProtocol */,
+				F130C30526071A57003AC2BC /* DefaultDecoderProtocolTests */,
+				F130C23625FC8DAF003AC2BC /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		F130C23625FC8DAF003AC2BC /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				F130C23525FC8DAF003AC2BC /* CodableDemo.app */,
+				F130C2F726071A56003AC2BC /* DefaultDecoderProtocol.framework */,
+				F130C2FF26071A56003AC2BC /* DefaultDecoderProtocolTests.xctest */,
+				F130C34C26072683003AC2BC /* ValuedCodable.framework */,
+				F130C35426072683003AC2BC /* ValuedCodableTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		F130C23725FC8DAF003AC2BC /* CodableDemo */ = {
+			isa = PBXGroup;
+			children = (
+				F130C23825FC8DAF003AC2BC /* AppDelegate.swift */,
+				F130C23A25FC8DAF003AC2BC /* SceneDelegate.swift */,
+				F130C23C25FC8DAF003AC2BC /* ViewController.swift */,
+				F130C23E25FC8DAF003AC2BC /* Main.storyboard */,
+				F130C24125FC8DB1003AC2BC /* Assets.xcassets */,
+				F130C24325FC8DB1003AC2BC /* LaunchScreen.storyboard */,
+				F130C24625FC8DB1003AC2BC /* Info.plist */,
+			);
+			path = CodableDemo;
+			sourceTree = "<group>";
+		};
+		F130C2F826071A56003AC2BC /* DefaultDecoderProtocol */ = {
+			isa = PBXGroup;
+			children = (
+				F130C2F926071A56003AC2BC /* DefaultDecoderProtocol.h */,
+				F130C31A26071A66003AC2BC /* DefaultDecoderKey.swift */,
+				F130C2FA26071A56003AC2BC /* Info.plist */,
+			);
+			path = DefaultDecoderProtocol;
+			sourceTree = "<group>";
+		};
+		F130C30526071A57003AC2BC /* DefaultDecoderProtocolTests */ = {
+			isa = PBXGroup;
+			children = (
+				F130C30626071A57003AC2BC /* DefaultDecoderProtocolTests.swift */,
+				F130C30826071A57003AC2BC /* Info.plist */,
+			);
+			path = DefaultDecoderProtocolTests;
+			sourceTree = "<group>";
+		};
+		F130C34D26072683003AC2BC /* ValuedCodable */ = {
+			isa = PBXGroup;
+			children = (
+				F130C34E26072683003AC2BC /* ValuedCodable.h */,
+				F130C25425FCA16D003AC2BC /* Codable+Ex.swift */,
+				F130C34F26072683003AC2BC /* Info.plist */,
+			);
+			path = ValuedCodable;
+			sourceTree = "<group>";
+		};
+		F130C35A26072683003AC2BC /* ValuedCodableTests */ = {
+			isa = PBXGroup;
+			children = (
+				F130C35B26072683003AC2BC /* ValuedCodableTests.swift */,
+				F130C35D26072683003AC2BC /* Info.plist */,
+			);
+			path = ValuedCodableTests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		F130C2F226071A56003AC2BC /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F130C30926071A57003AC2BC /* DefaultDecoderProtocol.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F130C34726072683003AC2BC /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F130C35E26072683003AC2BC /* ValuedCodable.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		F130C23425FC8DAF003AC2BC /* CodableDemo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F130C24925FC8DB1003AC2BC /* Build configuration list for PBXNativeTarget "CodableDemo" */;
+			buildPhases = (
+				F130C23125FC8DAF003AC2BC /* Sources */,
+				F130C23225FC8DAF003AC2BC /* Frameworks */,
+				F130C23325FC8DAF003AC2BC /* Resources */,
+				F130C27725FCAEEE003AC2BC /* Embed Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F130C30B26071A57003AC2BC /* PBXTargetDependency */,
+				F130C36026072683003AC2BC /* PBXTargetDependency */,
+			);
+			name = CodableDemo;
+			productName = CodableDemo;
+			productReference = F130C23525FC8DAF003AC2BC /* CodableDemo.app */;
+			productType = "com.apple.product-type.application";
+		};
+		F130C2F626071A56003AC2BC /* DefaultDecoderProtocol */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F130C30E26071A57003AC2BC /* Build configuration list for PBXNativeTarget "DefaultDecoderProtocol" */;
+			buildPhases = (
+				F130C2F226071A56003AC2BC /* Headers */,
+				F130C2F326071A56003AC2BC /* Sources */,
+				F130C2F426071A56003AC2BC /* Frameworks */,
+				F130C2F526071A56003AC2BC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = DefaultDecoderProtocol;
+			productName = DefaultDecoderProtocol;
+			productReference = F130C2F726071A56003AC2BC /* DefaultDecoderProtocol.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		F130C2FE26071A56003AC2BC /* DefaultDecoderProtocolTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F130C31126071A57003AC2BC /* Build configuration list for PBXNativeTarget "DefaultDecoderProtocolTests" */;
+			buildPhases = (
+				F130C2FB26071A56003AC2BC /* Sources */,
+				F130C2FC26071A56003AC2BC /* Frameworks */,
+				F130C2FD26071A56003AC2BC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F130C30226071A56003AC2BC /* PBXTargetDependency */,
+				F130C30426071A57003AC2BC /* PBXTargetDependency */,
+			);
+			name = DefaultDecoderProtocolTests;
+			productName = DefaultDecoderProtocolTests;
+			productReference = F130C2FF26071A56003AC2BC /* DefaultDecoderProtocolTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		F130C34B26072683003AC2BC /* ValuedCodable */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F130C36326072683003AC2BC /* Build configuration list for PBXNativeTarget "ValuedCodable" */;
+			buildPhases = (
+				F130C34726072683003AC2BC /* Headers */,
+				F130C34826072683003AC2BC /* Sources */,
+				F130C34926072683003AC2BC /* Frameworks */,
+				F130C34A26072683003AC2BC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ValuedCodable;
+			productName = ValuedCodable;
+			productReference = F130C34C26072683003AC2BC /* ValuedCodable.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		F130C35326072683003AC2BC /* ValuedCodableTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F130C36626072683003AC2BC /* Build configuration list for PBXNativeTarget "ValuedCodableTests" */;
+			buildPhases = (
+				F130C35026072683003AC2BC /* Sources */,
+				F130C35126072683003AC2BC /* Frameworks */,
+				F130C35226072683003AC2BC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F130C35726072683003AC2BC /* PBXTargetDependency */,
+				F130C35926072683003AC2BC /* PBXTargetDependency */,
+			);
+			name = ValuedCodableTests;
+			productName = ValuedCodableTests;
+			productReference = F130C35426072683003AC2BC /* ValuedCodableTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		F130C22D25FC8DAF003AC2BC /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1230;
+				LastUpgradeCheck = 1230;
+				TargetAttributes = {
+					F130C23425FC8DAF003AC2BC = {
+						CreatedOnToolsVersion = 12.3;
+					};
+					F130C2F626071A56003AC2BC = {
+						CreatedOnToolsVersion = 12.3;
+						LastSwiftMigration = 1230;
+					};
+					F130C2FE26071A56003AC2BC = {
+						CreatedOnToolsVersion = 12.3;
+						TestTargetID = F130C23425FC8DAF003AC2BC;
+					};
+					F130C34B26072683003AC2BC = {
+						CreatedOnToolsVersion = 12.3;
+					};
+					F130C35326072683003AC2BC = {
+						CreatedOnToolsVersion = 12.3;
+						TestTargetID = F130C23425FC8DAF003AC2BC;
+					};
+				};
+			};
+			buildConfigurationList = F130C23025FC8DAF003AC2BC /* Build configuration list for PBXProject "CodableDemo" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = F130C22C25FC8DAF003AC2BC;
+			productRefGroup = F130C23625FC8DAF003AC2BC /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				F130C23425FC8DAF003AC2BC /* CodableDemo */,
+				F130C2F626071A56003AC2BC /* DefaultDecoderProtocol */,
+				F130C2FE26071A56003AC2BC /* DefaultDecoderProtocolTests */,
+				F130C34B26072683003AC2BC /* ValuedCodable */,
+				F130C35326072683003AC2BC /* ValuedCodableTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		F130C23325FC8DAF003AC2BC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F130C24525FC8DB1003AC2BC /* LaunchScreen.storyboard in Resources */,
+				F130C24225FC8DB1003AC2BC /* Assets.xcassets in Resources */,
+				F130C24025FC8DAF003AC2BC /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F130C2F526071A56003AC2BC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F130C2FD26071A56003AC2BC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F130C34A26072683003AC2BC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F130C35226072683003AC2BC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		F130C23125FC8DAF003AC2BC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F130C23D25FC8DAF003AC2BC /* ViewController.swift in Sources */,
+				F130C23925FC8DAF003AC2BC /* AppDelegate.swift in Sources */,
+				F130C23B25FC8DAF003AC2BC /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F130C2F326071A56003AC2BC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F130C31B26071A66003AC2BC /* DefaultDecoderKey.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F130C2FB26071A56003AC2BC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F130C30726071A57003AC2BC /* DefaultDecoderProtocolTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F130C34826072683003AC2BC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F130C371260726BB003AC2BC /* Codable+Ex.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F130C35026072683003AC2BC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F130C35C26072683003AC2BC /* ValuedCodableTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		F130C30226071A56003AC2BC /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = F130C2F626071A56003AC2BC /* DefaultDecoderProtocol */;
+			targetProxy = F130C30126071A56003AC2BC /* PBXContainerItemProxy */;
+		};
+		F130C30426071A57003AC2BC /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = F130C23425FC8DAF003AC2BC /* CodableDemo */;
+			targetProxy = F130C30326071A57003AC2BC /* PBXContainerItemProxy */;
+		};
+		F130C30B26071A57003AC2BC /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = F130C2F626071A56003AC2BC /* DefaultDecoderProtocol */;
+			targetProxy = F130C30A26071A57003AC2BC /* PBXContainerItemProxy */;
+		};
+		F130C35726072683003AC2BC /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = F130C34B26072683003AC2BC /* ValuedCodable */;
+			targetProxy = F130C35626072683003AC2BC /* PBXContainerItemProxy */;
+		};
+		F130C35926072683003AC2BC /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = F130C23425FC8DAF003AC2BC /* CodableDemo */;
+			targetProxy = F130C35826072683003AC2BC /* PBXContainerItemProxy */;
+		};
+		F130C36026072683003AC2BC /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = F130C34B26072683003AC2BC /* ValuedCodable */;
+			targetProxy = F130C35F26072683003AC2BC /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		F130C23E25FC8DAF003AC2BC /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F130C23F25FC8DAF003AC2BC /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		F130C24325FC8DB1003AC2BC /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F130C24425FC8DB1003AC2BC /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		F130C24725FC8DB1003AC2BC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.3;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		F130C24825FC8DB1003AC2BC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		F130C24A25FC8DB1003AC2BC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = GY6E74AYN5;
+				INFOPLIST_FILE = CodableDemo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.chaselan.CodableDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		F130C24B25FC8DB1003AC2BC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = GY6E74AYN5;
+				INFOPLIST_FILE = CodableDemo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.chaselan.CodableDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		F130C30F26071A57003AC2BC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DEVELOPMENT_TEAM = GY6E74AYN5;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = DefaultDecoderProtocol/Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.chaselan.DefaultDecoderProtocol;
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		F130C31026071A57003AC2BC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DEVELOPMENT_TEAM = GY6E74AYN5;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = DefaultDecoderProtocol/Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.chaselan.DefaultDecoderProtocol;
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		F130C31226071A57003AC2BC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = GY6E74AYN5;
+				INFOPLIST_FILE = DefaultDecoderProtocolTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.chaselan.DefaultDecoderProtocolTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/CodableDemo.app/CodableDemo";
+			};
+			name = Debug;
+		};
+		F130C31326071A57003AC2BC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = GY6E74AYN5;
+				INFOPLIST_FILE = DefaultDecoderProtocolTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.chaselan.DefaultDecoderProtocolTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/CodableDemo.app/CodableDemo";
+			};
+			name = Release;
+		};
+		F130C36426072683003AC2BC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DEVELOPMENT_TEAM = GY6E74AYN5;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = ValuedCodable/Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.chaselan.ValuedCodable;
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		F130C36526072683003AC2BC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DEVELOPMENT_TEAM = GY6E74AYN5;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = ValuedCodable/Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.chaselan.ValuedCodable;
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		F130C36726072683003AC2BC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = GY6E74AYN5;
+				INFOPLIST_FILE = ValuedCodableTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.chaselan.ValuedCodableTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/CodableDemo.app/CodableDemo";
+			};
+			name = Debug;
+		};
+		F130C36826072683003AC2BC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = GY6E74AYN5;
+				INFOPLIST_FILE = ValuedCodableTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.chaselan.ValuedCodableTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/CodableDemo.app/CodableDemo";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		F130C23025FC8DAF003AC2BC /* Build configuration list for PBXProject "CodableDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F130C24725FC8DB1003AC2BC /* Debug */,
+				F130C24825FC8DB1003AC2BC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F130C24925FC8DB1003AC2BC /* Build configuration list for PBXNativeTarget "CodableDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F130C24A25FC8DB1003AC2BC /* Debug */,
+				F130C24B25FC8DB1003AC2BC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F130C30E26071A57003AC2BC /* Build configuration list for PBXNativeTarget "DefaultDecoderProtocol" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F130C30F26071A57003AC2BC /* Debug */,
+				F130C31026071A57003AC2BC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F130C31126071A57003AC2BC /* Build configuration list for PBXNativeTarget "DefaultDecoderProtocolTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F130C31226071A57003AC2BC /* Debug */,
+				F130C31326071A57003AC2BC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F130C36326072683003AC2BC /* Build configuration list for PBXNativeTarget "ValuedCodable" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F130C36426072683003AC2BC /* Debug */,
+				F130C36526072683003AC2BC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F130C36626072683003AC2BC /* Build configuration list for PBXNativeTarget "ValuedCodableTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F130C36726072683003AC2BC /* Debug */,
+				F130C36826072683003AC2BC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = F130C22D25FC8DAF003AC2BC /* Project object */;
+}
